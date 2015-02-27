@@ -29,6 +29,10 @@ h1, h2, h3, h4
 	border:none;
 	border-radius:0px;
 }
+img.thumbnail-edited
+{
+	height:400px;
+}
 
 .caption-edited
 {
@@ -41,6 +45,12 @@ p
 	font-size: 2em;
 	font-family: Redressed;
 	line-height: 1.3em;
+}
+
+img
+{
+	width:100%;
+	height:100%;
 }
 
 .btn-spiritual
