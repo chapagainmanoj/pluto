@@ -1,0 +1,46 @@
+body
+{
+	/*font-family: DJB Almost Perfect;*/
+	/*font-family: KG Miss Speechy IPA;*/
+	font-family: Redressed;
+	
+}
+.btn-edited
+{
+	border-radius: 0px;
+	background:orange;
+	border: solid 1px yellow;
+}
+
+.thumbnail-edited
+{
+	padding:0px;
+	border:none;
+	border-radius:0px;
+}
+
+.caption-edited
+{
+	color:black;
+}
+
+p 
+{
+	color:black;
+
+	font-size: 2em;
+	font-family: Redressed;
+	line-height: 1.3em;
+}
+
+.btn-spiritual
+{
+	background: none;
+	border:none;
+	color:black;
+}
+.btn-spiritual:hover
+{
+	color:#664466;
+	background:none;
+}
