@@ -34,6 +34,13 @@ img.thumbnail-edited
 	height:400px;
 }
 
+.img-logo
+{
+	margin-top:-34px;
+	margin-bottom:-35px;
+	height:90px;
+	width:80px;
+}
 .caption-edited
 {
 	color:black;
