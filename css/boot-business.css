@@ -95,10 +95,10 @@
 }
 .page-header {
   margin: 0 0 30px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #5E2A07;
 }
 .slider {
-	border-bottom:  1px solid #ddd;
+	/**border-bottom:  1px solid #ddd;*/
 }
 .widget-header {
   border: 1px solid #DDD;
