@@ -5,6 +5,17 @@ body
 	font-family: Redressed;
 	
 }
+
+h1, h2, h3, h4
+{
+	color:#5E2A07;
+}
+
+.content h1
+{
+	color:#5E2A07;
+}
+
 .btn-edited
 {
 	border-radius: 0px;
@@ -27,7 +38,6 @@ body
 p 
 {
 	color:black;
-
 	font-size: 2em;
 	font-family: Redressed;
 	line-height: 1.3em;
