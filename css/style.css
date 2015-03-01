@@ -19,11 +19,12 @@ h1, h2, h3, h4
 .btn-edited
 {
 	border-radius: 0px;
-	background:orange;
-	border: solid 1px yellow;
+	background:rgba(17,16,15,0.18);
+	border: solid 1px #5E2A07;
+	color:#5E2A07;
 }
 .btn-edited:hover {
-	background: none;
+	background: rgba(0,0,0,0.3);
 }
 .thumbnail-edited
 {
@@ -36,13 +37,7 @@ img.thumbnail-edited
 	height:400px;
 }
 
-.img-logo
-{
-	margin-top:-34px;
-	margin-bottom:-35px;
-	height:90px;
-	width:80px;
-}
+
 .caption-edited
 {
 	color:black;
@@ -64,7 +59,7 @@ p.highlight{
 }
 body > div > div.container > div:nth-child(2) > ul > li.span8 > div > div > img{
 	max-height: 50%;
-	max-width: 50%;
+	max-width: 40%;
 	padding-right: 15px;
 }
 /*
@@ -84,4 +79,38 @@ img
 {
 	color:#664466;
 	background:none;
+}
+/*tabable*/
+.nav-tabs{
+	border-bottom:1px solid #5E2A07;
+
+}
+.nav-tabs > li> a:hover{
+	color: black;
+	background-color: rgba(161, 161, 161, 0.38);
+	border: none;
+	cursor: default;
+}
+.nav-tabs > a:focus,
+.nav-tabs > .active >a,
+.nav-tabs > .active >a:hover{
+	color: black;
+	background-color: rgba(161, 161, 161, 0.38);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(94, 42, 7) rgb(94, 42, 7) transparent;
+	cursor: default;
+}
+a.tabable{
+	text-decoration: none;
+}
+
+@media (min-width: 979px) {
+  .img-logo
+{
+	margin-top:-34px;
+	margin-bottom:-35px;
+	height:90px;
+	width:80px;
+}
 }

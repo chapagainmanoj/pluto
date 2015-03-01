@@ -292,6 +292,9 @@ footer {
 
 /* Start: Responsive CSS section */
 @media (max-width: 979px) {
+  body {
+    padding-top: 70px;
+  }
   .nav-collapse .dropdown-menu a {
     color: white;
   }
