@@ -37,7 +37,11 @@ img.thumbnail-edited
 {
 	height:400px;
 }
-
+.img-edited {
+	max-height: 250px;
+	max-width: 250px;
+	padding-right: 10px;
+}
 
 .caption-edited
 {
@@ -63,6 +67,13 @@ body > div > div.container > div:nth-child(2) > ul > li.span8 > div > div > img{
 	max-width: 40%;
 	padding-right: 15px;
 }
+
+.right-container{
+	border: 1px solid #5E2A07;
+	border-radius: 10px;
+	padding: 5px;
+}
+
 /*
 img
 {
