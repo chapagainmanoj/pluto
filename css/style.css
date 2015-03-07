@@ -58,6 +58,7 @@ p
 p.text{
 	font-size: 1.5em;
 	font-weight: 400;
+	font-family: Helvetica;
 }
 p.highlight{
 	font-weight: 700;
