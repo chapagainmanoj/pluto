@@ -3,6 +3,8 @@ body
 	/*font-family: DJB Almost Perfect;*/
 	/*font-family: KG Miss Speechy IPA;*/
 	font-family: Redressed;
+	background: url('../img/content4.jpg');
+  	background-size: contain;
 	
 }
  
@@ -37,17 +39,33 @@ img.thumbnail-edited
 {
 	height:400px;
 }
+.thumbnail-main{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	border:none;
+	max-height: 300px;
+}
 .img-edited {
 	max-height: 250px;
 	max-width: 250px;
 	padding-right: 10px;
 }
+a{
+	color:#5E2A07;
+}
 
+a:hover{
+	text-decoration: none;
+	color:black;
+}
 .caption-edited
 {
 	color:black;
 }
-
+.collapsed-new{
+	color: #3C3F41;
+}
 p 
 {
 	color:black;
@@ -56,12 +74,13 @@ p
 	line-height: 1.3em;
 }
 p.text{
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: 400;
 	font-family: Helvetica;
 }
 p.highlight{
-	font-weight: 700;
+	font-weight: 600;
+
 }
 body > div > div.container > div:nth-child(2) > ul > li.span8 > div > div > img{
 	max-height: 50%;

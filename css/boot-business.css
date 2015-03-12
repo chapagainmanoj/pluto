@@ -15,7 +15,7 @@
 .navbar-inner, footer {
   border: none;
   padding: 15px 0;
-  background: url('../img/header-footer.png');
+  background: url('../img/header-footer1.jpg');
 }
 .navbar .brand-bootbus {
 	font-size: 30px;
@@ -52,7 +52,7 @@
 /* Start : Override Bootstrap hero unit */
 .hero-unit {
 	background: none;
-	padding: 0 60px 0 60px;
+	padding: 0px 60px 0px 60px;
 	margin: 0;
 }
 .hero-unit h1 {
@@ -83,18 +83,14 @@
 
 /* Start: Bootbusiness specific CSS */
 .content {
-  padding: 30px 0;
-  background: url('../img/content.jpg');
-  background-size: cover;
-}
-.thumbnail img {
-  width: 100%;
+  padding-top: 20px;
 }
 .active-link {
   background-color: #2E3436;
 }
 .page-header {
-  margin: 0 0 30px;
+  margin-bottom:10px;
+  padding-bottom: 0px;
   border-bottom: 1px solid #5E2A07;
 }
 .slider {
@@ -234,7 +230,7 @@
 }
 .remember-me {
   margin: 0 auto;
-  width: 70%;
+  width: 100%;
 }
 .remember-me a {
   font-size: 15px;
@@ -247,7 +243,7 @@
 .form-contact-us input[type="text"],
 .form-contact-us textarea {
   margin-bottom: 20px;
-  width: 70%;
+  width: 95%;
 }
 .form-contact-us input[type="text"] {
   height: 25px;
